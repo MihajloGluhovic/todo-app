@@ -27,4 +27,8 @@ export class TodosService {
       todos.map((todo) => (todo.id === id ? { ...todo, text } : todo))
     );
   }
+
+  removeTodo(id: string): void {
+    this.todosSig.update((todos) => todos.filter((todo) => todo.id !== id));
+  }
 }
