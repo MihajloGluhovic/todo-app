@@ -31,7 +31,7 @@ body {
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 :focus {
@@ -51,19 +51,19 @@ body {
 
 .todoapp input::-webkit-input-placeholder {
   font-style: italic;
-  font-weight: 300;
+  font-weight: lighter;
   color: rgba(0, 0, 0, 0.4);
 }
 
 .todoapp input::-moz-placeholder {
   font-style: italic;
-  font-weight: 300;
+  font-weight: lighter;
   color: rgba(0, 0, 0, 0.4);
 }
 
 .todoapp input::input-placeholder {
   font-style: italic;
-  font-weight: 300;
+  font-weight: lighter;
   color: rgba(0, 0, 0, 0.4);
 }
 
@@ -72,7 +72,7 @@ body {
   top: -140px;
   width: 100%;
   font-size: 80px;
-  font-weight: 200;
+  font-weight: 100;
   text-align: center;
   color: #b83f45;
   -webkit-text-rendering: optimizeLegibility;

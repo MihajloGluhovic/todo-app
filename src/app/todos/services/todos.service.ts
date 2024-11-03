@@ -21,4 +21,10 @@ export class TodosService {
     };
     this.todosSig.update((todos) => [...todos, newTodo]);
   }
+
+  changeTodo(id: string, text: string): void {
+    this.todosSig.update((todos) =>
+      todos.map((todo) => (todo.id === id ? { ...todo, text } : todo))
+    );
+  }
 }
